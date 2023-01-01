@@ -55,3 +55,29 @@ int main(){
   char ch1 = 123456;
   cout<<ch1<<endl;
   
+  
+  #include<iostream>
+using namespace std;
+int main(){
+  //int a = 2.0/5;
+  /*float a = 2.0/5;
+  cout<<a<<endl;
+  cout<<2.0/5<<endl;*/
+  int a =32;
+  int b =12;
+//Relational operators 
+  
+  bool F1 = (a==b);
+  cout<<F1<<endl;
+  
+  bool F2 = (a>b);
+  cout<<F2<<endl;
+
+  bool F3 = (a<b);
+  cout<<F3<<endl;
+
+  bool F4 = (a!=b);
+  cout<<F4<<endl;
+  int a3 =120;
+  cout<<!a<<endl;
+}
