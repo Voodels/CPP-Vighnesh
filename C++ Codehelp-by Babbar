@@ -1,0 +1,48 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sun,Jan1,2023:
+
+//first program in c++;
+#include<iostream>
+using namespace std;
+
+int main(){
+  cout <<"Namaste Dunia"<<endl;
+  cout <<"Hello World\n";
+}
+
+ //Data types  and Variables 
+
+
+#include<iostream>
+using namespace std;
+int main(){
+  //Data types 
+  int a = 123;
+  cout<<"the value of int a is :"<<a<<endl;
+
+  char b = 'v';
+  cout<<"the value of char b is :"<<b<< endl;
+
+  bool Bl = true;
+  cout<<"the value of bool Bl is :"<<Bl<< endl;
+
+  float f =3.7;
+  cout<<"the value of float f is :"<<f<< endl;
+
+  double d = 2.12;
+  cout<<"the value of double d is :"<<d<< endl;
+
+  //Size of a variable is given by sizeof() operator ;
+
+  int sizea = sizeof(a);
+  cout<<"size of a is : "<<sizea<<endl;
+  int sizeb = sizeof(b);
+  cout<<"size of b is : "<<sizeb<<endl;
+  int sizebl = sizeof(Bl);
+  cout<<"Size of bl is : "<<sizebl<<endl;
+  int sizeFl = sizeof(f);
+  cout<<"Size of f is : "<<sizeFl<<endl;
+  int sizeDLe = sizeof(d);
+  cout<<"Size of double d is : "<<sizeDLe<<endl;
+ }
+ 
