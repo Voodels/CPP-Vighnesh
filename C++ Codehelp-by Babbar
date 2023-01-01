@@ -46,3 +46,12 @@ int main(){
   cout<<"Size of double d is : "<<sizeDLe<<endl;
  }
  
+ 
+ type casting
+   int a = 'a';
+  cout<<a<<endl;
+  char ch = 98;
+  cout<<ch<<endl;
+  char ch1 = 123456;
+  cout<<ch1<<endl;
+  
