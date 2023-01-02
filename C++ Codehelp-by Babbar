@@ -50,7 +50,7 @@ int main(){
  type casting
    int a = 'a';
   cout<<a<<endl;
-  char ch = 98;
+  char ch = 98;Ascii Value of this varialble 
   cout<<ch<<endl;
   char ch1 = 123456;
   cout<<ch1<<endl;
@@ -81,3 +81,47 @@ int main(){
   int a3 =120;
   cout<<!a<<endl;
 }
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''Jan2''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+#include<iostream>
+using namespace std;
+int main(){
+  /*
+int a =432;
+int b =512;
+  if(a>b){
+    cout<<"a is greater here !!"<<endl;
+  }
+  else{
+    cout<<"b is greater here !!"<<endl;
+  }
+  int N;
+  cout<<"Enter the value of N:"<<endl;
+  cin>>N;
+
+  
+int c =a+b;*/
+//cout<<"The sum here will be : "<<c<<endl;
+/*int a,b;
+  cout<<"Enter the value of a & b :"<<endl;
+  cin>>a>>b;
+  //cout<<"The value of a & b are "<<a<<"  "<<b<<endl;
+  if(a>b){
+    cout<<"A is greater";
+  }else{
+    cout<<"B is greater";
+  }
+  }*/
+  //To check if a number is positive ,negative or zero;
+int a;
+  cout<<"Enter the value of a "<<endl;
+  cin>>a;
+  if(a>0){
+    cout<<"a is positive";
+  }else{
+    if(a<0){
+      cout<<"a is negative "<<endl;
+    }else{
+      cout<<"a is 0"<<endl;
+    }
+  }
+  }
