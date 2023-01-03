@@ -146,3 +146,57 @@ int main(){
 //cout<<int(inp)<<endl;
   return 0;
 }
+////While loops
+///print n til 99
+#include<iostream>
+using namespace std;
+int main(){
+  int n;
+  cout<<"Enter the value of n"<<endl;
+  
+  cin>>n;
+  
+  int i = 1;
+  
+  while(i<=n){ 
+  cout<<i<<endl;
+  i = i+1;
+  }
+}
+//While loops
+///print n till 99 and sum them 
+#include<iostream>
+using namespace std;
+int main(){
+  int n;
+  cout<<"Enter the value of n"<<endl;
+  
+  cin>>n;
+  int i = 1;
+  int sum = 0;
+  while(i<=n){
+    sum = sum+i;
+    i = i+1;
+  }
+  cout<<"Sum is : "<<sum<<endl;
+  }
+  
+  
+  ///to check if prime or not ;
+  
+  #include<iostream>
+using namespace std;
+int main(){
+  int n;
+  cout<<"The value of n is :";
+  cin>>n;
+  int i = 2;
+  while (i<n){
+    if((n%i)==0){
+      cout<<"Not prime ";
+     
+    }
+    i = i+1;
+    }
+  
+}
