@@ -125,3 +125,24 @@ int a;
     }
   }
   }
+  ---------------------------------------
+  Q.1 homework
+  //Psuedocode 
+//if input is between is while [0-9];[a,z];[A,Z];using ascii values 
+#include<iostream>
+using namespace std;
+int main(){
+  char inp;
+  cout<<"Ënter the value\n";
+  cin>>inp;
+  if((inp>=97)&&(inp<=122)){
+    cout<<"inp is a lowercase";
+  }else if ((inp>=48)&&(inp<=57)){
+    cout<<"inp is among 0-9";
+  }else if ((inp>=65)&&(inp<=90)){
+    cout<<"inp is among uppercase letters";
+  }
+  
+//cout<<int(inp)<<endl;
+  return 0;
+}
