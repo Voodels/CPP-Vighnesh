@@ -303,3 +303,28 @@ int main()
     }
     
 }
+pattern of 
+1111
+2222
+3333
+4444
+
+#include<iostream>
+using namespace std;
+int main(){
+  int num;
+  cin>>num;
+  int a = 1;
+
+
+  while(a<=num){
+      int b = 1;
+    while(b<=num){
+      cout<<a;
+      b = b+1;
+    }
+    cout<<endl;
+    a = a+1;
+  }
+}
+
