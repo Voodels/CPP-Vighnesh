@@ -565,3 +565,115 @@ int main(){
 
 
 */
+// /*
+// print pattern of
+// *
+// **
+// ***
+// ****
+// */
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cin>>n;
+//     int i = 1;
+//     while(i<=n){
+//         int j = 1;
+//         while(j<=i){
+//             cout<<'*';
+//             j++;
+//         }
+//     i++;
+//     cout<<endl;
+//     }
+//     return 0;
+// }
+// /*
+// /
+// // print pattern of
+// // // pattern of 
+// // 123
+// // 456
+// // 789
+
+// // */
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cin>>n;
+//     int i = 1;
+//     int c = 1;
+    
+//     while(i<=n){
+//         int j = 1;
+//         while(j<=n){
+             
+//             cout<<c;
+//             c++;
+//             j++;
+//         }
+//     i++;
+//     cout<<endl;
+//     }
+//     return 0;
+// }
+
+// // print pattern of
+// /*
+// 1
+// 12
+// 123
+// 1234
+// */
+
+// // */
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cin>>n;
+//     int i = 1;
+    
+//     while(i<=n){
+//         int j = 1;
+//         while(j<=i){
+             
+//             cout<<j;
+          
+//             j++;
+//         }
+//     i++;
+//     cout<<endl;
+//     }
+//     return 0;
+// }
+// print pattern of
+/*
+A
+BB
+CCC
+DDDD
+// */
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    int i = 1;
+    
+    while(i<=n){
+        int j = 1;
+        while(j<=i){
+            char a = 'a';
+            cout<<a;
+            cout<<j;
+          
+            j++;
+        }
+    i++;
+    cout<<endl;
+    }
+    return 0;
+}
