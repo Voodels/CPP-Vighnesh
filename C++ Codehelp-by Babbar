@@ -677,3 +677,43 @@ int main(){
     }
     return 0;
 }
+
+
+-------------------------------------------------------------------------------------------------
+
+march 25 
+
+Functions 
+
+#include <iostream>
+
+using namespace std;
+
+int power(int a, int b){
+    int ans = 1;
+    for(int i = 1;i<=b;i++){
+        ans = ans*a;
+    }
+    return ans;
+}
+
+int main()
+{
+    int a,b;
+    cout<<"enter the value of a : "<<endl;
+    cin>>a;
+    
+    cout<<"enter the value of b : "<<endl;
+    cin>>b;
+    
+    cout<<power(a,b)<<endl;
+
+    return 0;
+}
+
+
+
+odd even with &1;
+in bit level explination first digit in bit of negative number is 1 while as positive is 0;
+
+  
